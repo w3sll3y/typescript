@@ -136,6 +136,7 @@ else {
 function falha(msg) {
     throw new Error(msg);
 }
+;
 const produto = {
     nome: "sabao",
     preco: 4,
@@ -179,3 +180,4 @@ let correntista = {
 };
 correntista.contaBancaria.depositar(3000);
 console.log(correntista);
+//# sourceMappingURL=tipos.js.map
